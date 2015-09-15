@@ -14,7 +14,7 @@ namespace CS50xWeek1
         {
             var service = new MovieService();
 
-            //List Theaters
+            //list theaters
             var theaters = service.GetAvailableTheaters();
             Console.WriteLine("Theaters\n====================");
             foreach (var theater in theaters)
